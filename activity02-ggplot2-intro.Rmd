@@ -21,14 +21,15 @@ The `penguins` data set contains the following variables:
 
 All artwork by [@allison_horst](https://twitter.com/allison_horst).
 
-- `species`:
-- `island`:
-- `bill_length_mm`:
-- `bill_depth_mm`:
-- `flipper_length_mm`:
-- `body_mass_g`:
-- `sex`:
-- `year`:
+- `species`: factor denoting penguin species
+- `island`: factor denoting island
+- `bill_length_mm`: number denoting bill length in mm
+- `bill_depth_mm`: number denoting bill depth in mm
+- `flipper_length_mm`: integer denoting flipper length in mm
+- `body_mass_g`: integer denoting body mass in grams
+- `sex`: factor denoting penguin sex
+- `year`: integer denoting the study year
+
 
 We will need to install `{palmerpenguins}` in your RStudio session to be able to use this.
 There are a couple of ways to do this, but my preferred method is to type the following in your **Console** pane (this should be the pane below this open `.Rmd` file).
